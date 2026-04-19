@@ -3,7 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mansory | Premium Stone Masonry & Architectural Craftsmanship</title>
+    <title>Mansory | Premium Stone Masonry & Architectural Craftsmanship in Los Angeles</title>
+    <meta name="description" content="Mansory crafts premium stone masonry and architectural masterpieces for discerning homeowners across Los Angeles, Malibu, and Beverly Hills. Over 25 years of expertise. Request a consultation.">
+    <meta name="keywords" content="stone masonry Los Angeles, luxury masonry, architectural stonework, custom pool coping, natural stone, Beverly Hills masonry, premium hardscape">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://mansory.com/">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://mansory.com/">
+    <meta property="og:title" content="Mansory | Premium Stone Masonry & Architectural Craftsmanship">
+    <meta property="og:description" content="Master craftsmen transforming the finest natural stone into architectural heirlooms across Los Angeles. 480+ projects completed since 1998.">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1200&q=85">
+    <meta property="og:locale" content="en_US">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Mansory | Premium Stone Masonry">
+    <meta name="twitter:description" content="Crafting stone architectural masterpieces in Los Angeles since 1998.">
+    <meta name="twitter:image" content="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1200&q=85">
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "HomeAndConstructionBusiness",
+      "name": "Mansory",
+      "description": "Premium stone masonry and architectural craftsmanship for luxury residences.",
+      "url": "https://mansory.com",
+      "telephone": "+13105551234",
+      "email": "info@mansory.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "1247 Stone Canyon Road",
+        "addressLocality": "Los Angeles",
+        "addressRegion": "CA",
+        "postalCode": "90077",
+        "addressCountry": "US"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "34.0740",
+        "longitude": "-118.4406"
+      },
+      "areaServed": ["Los Angeles", "Beverly Hills", "Malibu", "Aspen", "Napa Valley"],
+      "foundingDate": "1998",
+      "sameAs": []
+    }
+    </script>
+
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -59,8 +107,10 @@
             </div>
         </div>
         <div class="hero-scroll-indicator">
-            <span class="scroll-text">Scroll to explore</span>
-            <span class="scroll-arrow"></span>
+            <span class="scroll-text">Scroll</span>
+            <div class="scroll-mouse">
+                <div class="scroll-mouse-dot"></div>
+            </div>
         </div>
     </section>
 
@@ -69,12 +119,12 @@
          ============================================ -->
     <section class="intro-section">
         <div class="intro-container">
-            <div class="intro-header">
+            <div class="intro-header" data-animate>
                 <span class="section-label">Who We Are</span>
                 <span class="section-number">01</span>
             </div>
             <div class="intro-content">
-                <div class="intro-text-block">
+                <div class="intro-text-block" data-animate data-delay="1">
                     <h2 class="intro-title">Masters of the<br>Ancient Craft</h2>
                     <p class="intro-lead">For over 25 years, the most discerning architects, designers, and homeowners have trusted Mansory to bring their visions to life in stone.</p>
                     <p class="intro-paragraph">We are not contractors—we are artisans. Our team combines centuries-old masonry techniques with precision engineering, sourcing only the finest natural stone from quarries worldwide. Every cut, every joint, every finish reflects an unwavering commitment to perfection that simply cannot be replicated.</p>
@@ -83,14 +133,14 @@
                         <span class="arrow-icon">→</span>
                     </a>
                 </div>
-                <div class="intro-image-block">
+                <div class="intro-image-block" data-animate data-delay="2">
                     <div class="intro-image-wrapper">
                         <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&q=80" alt="Stone craftsmanship detail" class="intro-image">
                     </div>
                     <div class="intro-image-accent"></div>
                 </div>
             </div>
-            <div class="intro-stats">
+            <div class="intro-stats" data-animate>
                 <div class="stat-item">
                     <span class="stat-value">25+</span>
                     <span class="stat-label">Years of Excellence</span>
@@ -114,7 +164,7 @@
          ============================================ -->
     <section class="services-section">
         <div class="services-container">
-            <div class="services-header">
+            <div class="services-header" data-animate>
                 <div class="services-header-left">
                     <span class="section-label">What We Do</span>
                     <span class="section-number">02</span>
@@ -126,7 +176,7 @@
             </div>
             <div class="services-grid">
                 <!-- Service Card 1 -->
-                <article class="service-card">
+                <article class="service-card" data-animate data-delay="1">
                     <div class="service-card-image">
                         <img src="https://images.unsplash.com/photo-1572331165267-854da2b10ccc?w=600&q=80" alt="Luxury pool">
                     </div>
@@ -138,7 +188,7 @@
                     </div>
                 </article>
                 <!-- Service Card 2 -->
-                <article class="service-card">
+                <article class="service-card" data-animate data-delay="2">
                     <div class="service-card-image">
                         <img src="https://images.unsplash.com/photo-1600607687644-c7171b42498f?w=600&q=80" alt="Stone fireplace">
                     </div>
@@ -150,7 +200,7 @@
                     </div>
                 </article>
                 <!-- Service Card 3 -->
-                <article class="service-card">
+                <article class="service-card" data-animate data-delay="3">
                     <div class="service-card-image">
                         <img src="https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?w=600&q=80" alt="Elegant hardscape">
                     </div>
@@ -170,7 +220,7 @@
          ============================================ -->
     <section class="projects-section">
         <div class="projects-container">
-            <div class="projects-header">
+            <div class="projects-header" data-animate>
                 <div class="projects-header-top">
                     <div class="projects-header-left">
                         <span class="section-label">Our Work</span>
@@ -185,7 +235,7 @@
             <div class="projects-gallery-new">
                 <!-- Row 1: Hero Project -->
                 <div class="project-row project-row-hero">
-                    <div class="project-card-new project-card-hero">
+                    <div class="project-card-new project-card-hero" data-animate>
                         <div class="project-card-image">
                             <img src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=1400&q=85" alt="The Morrison Estate">
                         </div>
@@ -269,7 +319,7 @@
             </div>
             <div class="process-steps">
                 <!-- Step 1 -->
-                <div class="process-step">
+                <div class="process-step" data-animate data-delay="1">
                     <div class="step-icon">
                         <span class="step-number">01</span>
                     </div>
@@ -279,7 +329,7 @@
                     </div>
                 </div>
                 <!-- Step 2 -->
-                <div class="process-step">
+                <div class="process-step" data-animate data-delay="2">
                     <div class="step-icon">
                         <span class="step-number">02</span>
                     </div>
@@ -289,7 +339,7 @@
                     </div>
                 </div>
                 <!-- Step 3 -->
-                <div class="process-step">
+                <div class="process-step" data-animate data-delay="3">
                     <div class="step-icon">
                         <span class="step-number">03</span>
                     </div>
@@ -299,7 +349,7 @@
                     </div>
                 </div>
                 <!-- Step 4 -->
-                <div class="process-step">
+                <div class="process-step" data-animate data-delay="4">
                     <div class="step-icon">
                         <span class="step-number">04</span>
                     </div>
@@ -319,7 +369,7 @@
          TESTIMONIAL SECTION
          ============================================ -->
     <section class="testimonial-section">
-        <div class="testimonial-container">
+        <div class="testimonial-container" data-animate>
             <div class="testimonial-quote-mark">"</div>
             <blockquote class="testimonial-quote">Mansory didn't just meet our expectations—they redefined what we thought was possible. The craftsmanship is absolutely breathtaking. Our outdoor space has become the heart of our home.</blockquote>
             <div class="testimonial-author">
@@ -338,7 +388,7 @@
             <div class="cta-overlay"></div>
         </div>
         <div class="cta-container">
-            <div class="cta-content">
+            <div class="cta-content" data-animate>
                 <span class="cta-label">Let's Build Something Extraordinary</span>
                 <h2 class="cta-title">Your Vision.<br>Our Mastery.</h2>
                 <p class="cta-description">The finest homes deserve the finest craftsmanship. Schedule a private consultation and discover what Mansory can create for you.</p>
@@ -394,42 +444,89 @@
                     <li><a href="#">Terms of Service</a></li>
                 </ul>
             </div>
+            <p class="footer-credit">Designed &amp; built by <a href="https://sabrinamesquita.com.br" target="_blank" rel="noopener noreferrer">Sabrina Mesquita</a></p>
         </div>
     </footer>
 
-    <!-- Scroll Header Script -->
     <script>
         const header = document.getElementById('header');
         const hero = document.querySelector('.hero-section');
+        const heroImage = document.querySelector('.hero-image');
         const mobileMenuToggle = document.getElementById('mobileMenuToggle');
         const nav = document.querySelector('.header-nav');
-        
-        // Header scroll effect
-        window.addEventListener('scroll', () => {
-            const heroBottom = hero.offsetHeight - 100;
-            if (window.scrollY > heroBottom) {
-                header.classList.add('header-scrolled');
-            } else {
-                header.classList.remove('header-scrolled');
-            }
-        });
 
-        // Mobile menu toggle
+        // ── Header scroll state ──────────────────────────────
+        window.addEventListener('scroll', () => {
+            header.classList.toggle('header-scrolled', window.scrollY > hero.offsetHeight - 100);
+        }, { passive: true });
+
+        // ── Mobile menu ──────────────────────────────────────
         mobileMenuToggle.addEventListener('click', () => {
             nav.classList.toggle('nav-open');
             mobileMenuToggle.classList.toggle('menu-open');
             document.body.classList.toggle('menu-active');
         });
 
-        // Close menu when clicking on a link
-        const navLinks = document.querySelectorAll('.nav-link');
-        navLinks.forEach(link => {
+        document.querySelectorAll('.nav-link').forEach(link => {
             link.addEventListener('click', () => {
                 nav.classList.remove('nav-open');
                 mobileMenuToggle.classList.remove('menu-open');
                 document.body.classList.remove('menu-active');
             });
         });
+
+        // ── Hero parallax ────────────────────────────────────
+        let rafPending = false;
+        window.addEventListener('scroll', () => {
+            if (rafPending) return;
+            rafPending = true;
+            requestAnimationFrame(() => {
+                const sy = window.scrollY;
+                if (sy < window.innerHeight * 1.2) {
+                    heroImage.style.transform = `translateY(${sy * 0.22}px)`;
+                }
+                rafPending = false;
+            });
+        }, { passive: true });
+
+        // ── Scroll-triggered animations ──────────────────────
+        const revealObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('in-view');
+                    revealObserver.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.12, rootMargin: '0px 0px -48px 0px' });
+
+        document.querySelectorAll('[data-animate]').forEach(el => revealObserver.observe(el));
+
+        // ── Animated counters ────────────────────────────────
+        const counterObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (!entry.isIntersecting) return;
+                const el = entry.target;
+                const raw = el.textContent.trim();
+                const num = parseFloat(raw);
+                const suffix = raw.replace(/[\d.]/g, '');
+                if (isNaN(num)) return;
+
+                const duration = 1600;
+                let startTs = null;
+
+                const step = (ts) => {
+                    if (!startTs) startTs = ts;
+                    const progress = Math.min((ts - startTs) / duration, 1);
+                    const eased = 1 - Math.pow(1 - progress, 3);
+                    el.textContent = Math.round(num * eased) + suffix;
+                    if (progress < 1) requestAnimationFrame(step);
+                };
+                requestAnimationFrame(step);
+                counterObserver.unobserve(el);
+            });
+        }, { threshold: 0.5 });
+
+        document.querySelectorAll('.stat-value').forEach(el => counterObserver.observe(el));
     </script>
 
 </body>
